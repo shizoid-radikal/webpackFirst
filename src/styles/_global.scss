@@ -1,0 +1,11 @@
+$primaryColor:red;
+$secondaryColor:blue;
+h1{
+    color:$primaryColor;
+    background-image:url(../images/vue-js.png);
+}
+.container{
+    &__subtitle{
+        color:$secondaryColor;
+    }
+}
